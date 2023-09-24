@@ -10,7 +10,7 @@ if (number < 1)
 }
 else
 {
-    int index = 1;
+    int index = 2;
     while (index < number)
     {
         if (index % 2 == 0)
@@ -18,12 +18,8 @@ else
             Console.Write(index + " "); // если поставить запятую перед 
             //пробелом, чтобы числа разделялись запятой, 
             //не пойму как ее убрать после последнего числа.
-            index++;
         }
-        else
-        {
-            index++;
-        }
+        index = index + 2;
     }
     Console.Write("- четные числа.");
 }
